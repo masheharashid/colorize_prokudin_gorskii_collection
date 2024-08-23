@@ -8,6 +8,7 @@ The project takes the digitized Prokudin-Gorskii glass plate images and uses ima
 - [Key Functions](#key-functions)
 - [Installation](#installation)
 - [Running the Notebook](#running=the=notebook)
+- [Running on Google Colab](#running-on-google-colab)
 
 ## Project Overview
 
@@ -41,8 +42,8 @@ Open the terminal and navigate to the project directory. Then, launch the Jupyte
    jupyter notebook colorize_prokudin_gorskii_collection.ipynb
    ```
    
-2. **Set Up Paths**
-Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. Locate the following sections:
+2. **Set Up Paths**<br>
+- Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. Locate the following sections:
 
    ```python
    # --- III. The Main Function: colorize() ---
@@ -55,7 +56,22 @@ Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. L
    ```
    Replace "/path/to/your/colorized_results" and "/path/to/your/original_data" with your local paths.
 
-
 3. Follow the instructions in the notebook and run each cell in order
-   
 
+## Running on Google Colabo
+   
+1. Upload the Notebook
+   - Open Google Colab.
+   - Upload the colorize_prokudin_gorskii_collection.ipynb file to Colab.
+
+2. Mount Google Drive (Optional)
+   - If your image files are stored in Google Drive, mount the drive to access them:
+python
+Copy code
+from google.colab import drive
+drive.mount('/content/drive')
+Set Up Paths
+Update the results_dir and img_dir to reflect the paths on Google Drive or within the Colab environment.
+
+Run the Notebook
+Execute the cells in order as instructed in the notebook.
