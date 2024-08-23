@@ -60,12 +60,13 @@ Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. L
 
 ## Running on Google Colab
    
-1. **Upload the Notebook**
-- Open [Google Colab](https://colab.google/)
-- Upload the colorize_prokudin_gorskii_collection.ipynb file 
+1. **Upload the Notebook**<br>
+Open [Google Colab](https://colab.google/)
+Upload the colorize_prokudin_gorskii_collection.ipynb file 
 
-2. **Mount Google Drive (Optional)**
-- If your image files are stored in Google Drive, mount the drive to access them:
+2. **Mount Google Drive (Optional)**<br>
+If your image files are stored in Google Drive, mount the drive to access them:
+
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
