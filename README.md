@@ -38,7 +38,7 @@ git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.
 1. **Launch the Jupyter Notebook Interface**
    - Open the terminal and navigate to the project directory.
    - Launch the Jupyter Notebook interface and open the Python notebook file:
-   
+     
    ```bash
    jupyter notebook colorize_prokudin_gorskii_collection.ipynb
    ```
@@ -66,7 +66,7 @@ git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.
    - Upload the colorize_prokudin_gorskii_collection.ipynb file 
 
 2. **Mount Google Drive (Optional)**
-   If your image files are stored in Google Drive, mount the drive to access them:
+   - If your image files are stored in Google Drive, mount the drive to access them:
 
    ```python
    from google.colab import drive
@@ -74,7 +74,7 @@ git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.
    ```
 
 3. **Set Up Paths**
-Update the ***results_dir*** and ***img_dir*** to reflect the paths on Google Drive or within the Colab environment.
+   - Update the ***results_dir*** and ***img_dir*** to reflect the paths on Google Drive or within the Colab environment.
 
-4. **Run the Notebook**<br>
-Execute the cells in order as instructed in the notebook.
+4. **Run the Notebook**
+   - Execute the cells in order as instructed in the notebook.
