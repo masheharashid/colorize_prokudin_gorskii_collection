@@ -6,8 +6,8 @@ The project takes the digitized Prokudin-Gorskii glass plate images and uses ima
 
 - [Project Overview](#project-overview)
 - [Key Functions](#key-functions)
-- [Getting Started](#getting-started)
-- 
+- [Installation](#installation)
+- [Running the Notebook](#running=the=notebook)
 
 ## Project Overview
 
@@ -25,16 +25,14 @@ The process involves extracting the color channels, aligning them to form a comp
 - **pyramid_align()**: Applies a multi-scale approach for efficient alignment of large images
 - **colorize()**: The main function that integrates all the steps to produce and save the final colorized image
 
-## Getting Started
-
-### Installation 
+## Installation 
 
 Clone the repository to your local machine:
 ```bash
 git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.git
 ```
 
-### Running the Notebook
+## Running the Notebook
 
 1. Launch "Jupyter Notebook" interface and open the Python notebook (.ipynb) file
    
@@ -44,10 +42,13 @@ git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.
 2. Change path file for **result_dir** and **img_dir** to your locations
 
    ```python
-   # Saves each colorized image in the "colorized_results" folder
-   results_dir = "/path/to/your/colorized_results"  # Replace with your actual filepath
+   # Saves each colorized image in the "colorized_results" folder (found in "III. The Main Function: colorize()")
+   results_dir = "/path/to/your/colorized_results"  # Replace with your actual file path
 
-   # Path to the "original_data" folder, which contains the input images
-   img_dir = "/path/to/your/original_data"  # Replace with your actual filepath
+   # Path to the "original_data" folder, which contains the input images (found in "IV. Putting Everything Together")
+   img_dir = "/path/to/your/original_data"  # Replace with your actual file path
+   ```
+   
+3. Follow the instructions in the notebook and run each cell in order
    
 
