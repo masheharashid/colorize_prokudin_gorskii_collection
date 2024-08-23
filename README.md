@@ -62,7 +62,7 @@ Launch the Jupyter Notebook interface and open the Python notebook file:
 ## Running on Google Colab
    
 1. **Upload the Notebook**<br>
-Open [Google Colab](https://colab.google/)
+Open [Google Colab](https://colab.google/)<br>
 Upload the colorize_prokudin_gorskii_collection.ipynb file 
 
 3. **Mount Google Drive (Optional)**
