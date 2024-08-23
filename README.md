@@ -6,6 +6,8 @@ The project takes the digitized Prokudin-Gorskii glass plate images and uses ima
 
 - [Project Overview](#project-overview)
 - [Key Functions](#key-functions)
+- [Getting Started](#getting-started)
+    - [Installation](#installation)
 
 ## Project Overview
 
@@ -22,5 +24,14 @@ The process involves extracting the color channels, aligning them to form a comp
 - **align()** & **get_displacement()**: Aligns the channels by finding the optimal displacement
 - **pyramid_align()**: Applies a multi-scale approach for efficient alignment of large images
 - **colorize()**: The main function that integrates all the steps to produce and save the final colorized image
+
+## Getting Started
+
+### Installation 
+
+Clone the repository to your local machine:
+```bash
+git clone https://github.com/yourusername/project-name.git
+cd project-name
 
 
