@@ -41,8 +41,8 @@ Open the terminal and navigate to the project directory. Then, launch the Jupyte
    jupyter notebook colorize_prokudin_gorskii_collection.ipynb
    ```
    
-2. **Set Up Paths**<br>
-   Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. Locate the following sections:
+2. **Set Up Paths**
+Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. Locate the following sections:
 
    ```python
    # --- III. The Main Function: colorize() ---
