@@ -43,7 +43,7 @@ Open the terminal and navigate to the project directory. Then, launch the Jupyte
    ```
    
 2. **Set Up Paths**<br>
-- Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. Locate the following sections:
+Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. Locate the following sections:
 
    ```python
    # --- III. The Main Function: colorize() ---
@@ -58,20 +58,21 @@ Open the terminal and navigate to the project directory. Then, launch the Jupyte
 
 3. Follow the instructions in the notebook and run each cell in order
 
-## Running on Google Colabo
+## Running on Google Colab
    
-1. Upload the Notebook
-   - Open Google Colab.
-   - Upload the colorize_prokudin_gorskii_collection.ipynb file to Colab.
+1. **Upload the Notebook**
+- Open [Google Colab](https://colab.google/)
+- Upload the colorize_prokudin_gorskii_collection.ipynb file 
 
-2. Mount Google Drive (Optional)
-   - If your image files are stored in Google Drive, mount the drive to access them:
-python
-Copy code
+2. **Mount Google Drive (Optional)**
+- If your image files are stored in Google Drive, mount the drive to access them:
+```python
 from google.colab import drive
 drive.mount('/content/drive')
-Set Up Paths
-Update the results_dir and img_dir to reflect the paths on Google Drive or within the Colab environment.
+```
 
-Run the Notebook
+3. **Set Up Paths**
+Update the ***results_dir*** and ***img_dir*** to reflect the paths on Google Drive or within the Colab environment.
+
+4. **Run the Notebook**
 Execute the cells in order as instructed in the notebook.
