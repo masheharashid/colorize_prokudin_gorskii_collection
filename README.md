@@ -7,7 +7,7 @@ The project takes the digitized Prokudin-Gorskii glass plate images and uses ima
 - [Project Overview](#project-overview)
 - [Key Functions](#key-functions)
 - [Getting Started](#getting-started)
-    - [Installation](#installation)
+- 
 
 ## Project Overview
 
@@ -37,8 +37,17 @@ git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.
 ### Running the Notebook
 
 1. Launch "Jupyter Notebook" interface and open the Python notebook (.ipynb) file
+   
    ```bash
    jupyter notebook colorize_prokudin_gorskii_collection.ipynb
    ```
-2. Run each cell in order 
+2. Change path file for **result_dir** and **img_dir** to your locations
+
+   ```python
+   # Saves each colorized image in the "colorized_results" folder
+   results_dir = "/path/to/your/colorized_results"  # Replace with your actual filepath
+
+   # Path to the "original_data" folder, which contains the input images
+   img_dir = "/path/to/your/original_data"  # Replace with your actual filepath
+   
 
