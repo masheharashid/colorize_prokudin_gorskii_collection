@@ -67,13 +67,13 @@ Upload the colorize_prokudin_gorskii_collection.ipynb file
 2. **Mount Google Drive (Optional)**<br>
 If your image files are stored in Google Drive, mount the drive to access them:
 
-```python
-from google.colab import drive
-drive.mount('/content/drive')
-```
+   ```python
+   from google.colab import drive
+   drive.mount('/content/drive')
+   ```
 
-3. **Set Up Paths**
+3. **Set Up Paths**<br>
 Update the ***results_dir*** and ***img_dir*** to reflect the paths on Google Drive or within the Colab environment.
 
-4. **Run the Notebook**
+4. **Run the Notebook**<br>
 Execute the cells in order as instructed in the notebook.
