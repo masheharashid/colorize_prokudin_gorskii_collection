@@ -36,7 +36,7 @@ git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.
 ## Running the Notebook
 
 1. **Launch the Jupyter Notebook Interface**<br>
-Open the terminal and navigate to the project directory
+Open the terminal and navigate to the project directory<br>
 Launch the Jupyter Notebook interface and open the Python notebook file:
      
    ```bash
