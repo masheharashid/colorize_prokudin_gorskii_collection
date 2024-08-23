@@ -55,6 +55,7 @@ git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.
    ```
    Replace "/path/to/your/colorized_results" and "/path/to/your/original_data" with your local paths.
 
+
 3. Follow the instructions in the notebook and run each cell in order
    
 
