@@ -31,12 +31,14 @@ The process involves extracting the color channels, aligning them to form a comp
 
 Clone the repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/project-name.git
-cd project-name
+git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.git
 ```
 
 ### Running the Notebook
 
-1. Open a terminal and navigate to the project directory:
+1. Launch "Jupyter Notebook" interface and open the Python notebook (.ipynb) file
+   ```bash
+   jupyter notebook colorize_prokudin_gorskii_collection.ipynb
+   ```
+2. Run each cell in order 
 
-2. 
