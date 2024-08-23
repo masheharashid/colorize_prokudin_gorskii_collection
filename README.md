@@ -41,6 +41,7 @@ git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.
      ```bash
    jupyter notebook colorize_prokudin_gorskii_collection.ipynb
    ```
+     
 2. **Set Up Input and Output Image Paths**
 -  Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. Locate the following sections:
     - III. The Main Function: colorize()
@@ -61,11 +62,13 @@ git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.
 
 3. Follow the instructions in the notebook and run each cell in order
 
+
 ## Running on Google Colab
 
 1. **Upload the Notebook**
 - Open [Google Colab](https://colab.google/)
 - Upload the *colorize_prokudin_gorskii_collection.ipynb* file
+  
 
 2. **Mount Google Drive (Optional)**
 - If your image files are stored in Google Drive, mount the drive to access them:
@@ -75,8 +78,10 @@ git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.
     drive.mount('/content/drive')
     ```
 
+
 3. **Set Up Input and Output Image Paths**
 - Update the ***results_dir*** and ***img_dir*** to reflect the paths on Google Drive or within the Colab environment
+  
 
 4. **Run the Notebook**
 - Execute the cells in order as instructed in the notebook
