@@ -35,14 +35,14 @@ git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.
 ## Running the Notebook
 
 1. **Launch the Jupyter Notebook Interface**<br>
-   Open the terminal and navigate to the project directory. Then, launch the Jupyter Notebook interface and open the Python notebook file:
+Open the terminal and navigate to the project directory. Then, launch the Jupyter Notebook interface and open the Python notebook file:
    
    ```bash
    jupyter notebook colorize_prokudin_gorskii_collection.ipynb
    ```
    
 2. **Set Up Paths**<br>
-   You need to set the correct paths for results_dir and img_dir in the notebook. Locate the following sections:
+   Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. Locate the following sections:
 
    ```python
    # --- III. The Main Function: colorize() ---
