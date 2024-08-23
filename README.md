@@ -5,6 +5,7 @@ The goal of the project is to take the digitized Prokudin-Gorskii glass plate im
 ## Table of Contents
 
 - [Project Overview](#project-overview)
+- [Key Functions](#key-functions)
 
 ## Project Overview
 
@@ -12,7 +13,7 @@ The objective is to recreate color images from the digitized glass plate photogr
 
 The process involves extracting the color channels, aligning them to form a composite image, and applying image processing techniques to ensure the final image is as clear and accurate as possible. The project includes a basic alignment algorithm using a single-scale search and an advanced version utilizing a coarse-to-fine pyramid approach to efficiently handle larger images (ex. TIFF files).
 
-Key functions implemented include:
+## Key Functions
 
 - **split_color_channels()**: Splits the image into its BGR components
 - **crop_image()**: Removes unnecessary borders by cropping the images
