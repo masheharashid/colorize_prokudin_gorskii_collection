@@ -33,5 +33,10 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/project-name.git
 cd project-name
+```
 
+### Running the Notebook
 
+1. Open a terminal and navigate to the project directory:
+
+2. 
