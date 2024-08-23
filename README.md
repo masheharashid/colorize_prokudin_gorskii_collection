@@ -42,20 +42,20 @@ git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.
    jupyter notebook colorize_prokudin_gorskii_collection.ipynb
    ```
 2. **Set Up Paths**
--  Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. Locate the following sections
-  - III. The Main Function: colorize()
+-  Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. Locate the following sections:
+    - III. The Main Function: colorize()
     
-  ```python
-   # Saves each colorized image in the "colorized_results" folder 
-   results_dir = "/path/to/your/colorized_results"  # Replace with your actual file path
-   ```
-
-  - IV. Putting Everything Together
-
     ```python
-    # Path to the "original_data" folder, which contains the input images
-    img_dir = "/path/to/your/original_data"  # Replace with your actual file path
-    ```
+     # Saves each colorized image in the "colorized_results" folder 
+     results_dir = "/path/to/your/colorized_results"  # Replace with your actual file path
+     ```
+
+    - IV. Putting Everything Together
+
+      ```python
+      # Path to the "original_data" folder, which contains the input images
+      img_dir = "/path/to/your/original_data"  # Replace with your actual file path
+      ```
     
 - Replace "/path/to/your/colorized_results" and "/path/to/your/original_data" with your local paths
 
