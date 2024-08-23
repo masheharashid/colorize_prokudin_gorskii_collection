@@ -35,15 +35,16 @@ git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.
 
 ## Running the Notebook
 
-1. **Launch the Jupyter Notebook Interface**<br>
-Open the terminal and navigate to the project directory. Then, launch the Jupyter Notebook interface and open the Python notebook file:
+1. **Launch the Jupyter Notebook Interface**
+   - Open the terminal and navigate to the project directory.
+   - Launch the Jupyter Notebook interface and open the Python notebook file:
    
    ```bash
    jupyter notebook colorize_prokudin_gorskii_collection.ipynb
    ```
    
-2. **Set Up Paths**<br>
-Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. Locate the following sections:
+3. **Set Up Paths**
+   - Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. Locate the following sections:
 
    ```python
    # --- III. The Main Function: colorize() ---
@@ -54,26 +55,26 @@ Set the correct paths for ***results_dir*** and ***img_dir*** in the notebook. L
    # Path to the "original_data" folder, which contains the input images 
    img_dir = "/path/to/your/original_data"  # Replace with your actual file path
    ```
-   Replace "/path/to/your/colorized_results" and "/path/to/your/original_data" with your local paths.
+   - Replace "/path/to/your/colorized_results" and "/path/to/your/original_data" with your local paths.
 
-3. Follow the instructions in the notebook and run each cell in order
+4. Follow the instructions in the notebook and run each cell in order
 
 ## Running on Google Colab
    
-1. **Upload the Notebook**<br>
-   Open [Google Colab](https://colab.google/)<br>
-   Upload the colorize_prokudin_gorskii_collection.ipynb file 
+1. **Upload the Notebook**
+   - Open [Google Colab](https://colab.google/)
+   - Upload the colorize_prokudin_gorskii_collection.ipynb file 
 
-3. **Mount Google Drive (Optional)**<br>
-If your image files are stored in Google Drive, mount the drive to access them:
+2. **Mount Google Drive (Optional)**
+   If your image files are stored in Google Drive, mount the drive to access them:
 
    ```python
    from google.colab import drive
    drive.mount('/content/drive')
    ```
 
-4. **Set Up Paths**<br>
+3. **Set Up Paths**
 Update the ***results_dir*** and ***img_dir*** to reflect the paths on Google Drive or within the Colab environment.
 
-5. **Run the Notebook**<br>
+4. **Run the Notebook**<br>
 Execute the cells in order as instructed in the notebook.
