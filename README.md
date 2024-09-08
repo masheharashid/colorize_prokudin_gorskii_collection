@@ -7,7 +7,7 @@ The project takes the digitized Prokudin-Gorskii glass plate images and uses ima
 - [Project Overview](#project-overview)
 - [Key Functions](#key-functions)
 - [Installation](#installation)
-- [Running the Notebook](#running=the=notebook)
+- [Running the Notebook](#running-the-notebook)
 - [Running on Google Colab](#running-on-google-colab)
 
 ## Project Overview
