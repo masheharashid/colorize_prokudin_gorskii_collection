@@ -31,6 +31,7 @@ The process involves extracting the color channels, aligning them to form a comp
 Clone the repository to your local machine:
 ```bash
 git clone https://github.com/masheharashid/colorize_prokudin_gorskii_collection.git
+cd colorize_prokudin_gorskii_collection
 ```
 
 ## Running the Notebook
